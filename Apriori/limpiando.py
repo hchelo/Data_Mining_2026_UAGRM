@@ -47,5 +47,5 @@ print(f"Despues de la Limpieza hay {len(productos_ordenados)} productos que son:
 print('\n '.join(productos_ordenados))
 
 # Guardar CSV corregido
-df.to_csv("market_cleaned2.csv", sep=";", index=False)
+df.to_csv("market_cleaned.csv", sep=";", index=False)
 print("Archivo corregido guardado como 'market_cleaned.csv'")
